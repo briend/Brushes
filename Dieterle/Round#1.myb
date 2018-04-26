@@ -1,7 +1,7 @@
 {
-    "cie_h": 265.48534905825454, 
-    "cie_s": 47.76301153248278, 
-    "cie_v": 42.67403952370955, 
+    "cie_h": 79.02494579670392, 
+    "cie_s": 31.416495357576018, 
+    "cie_v": 31.277021090383663, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Round Brush Oil", 
@@ -37,15 +37,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6411001700332157, 
+            "base_value": 0.11509294191425495, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.5955000896903034, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.9431872558593754, 
+            "base_value": 0.5022055020025683, 
             "inputs": {}
         }, 
         "colorize": {
@@ -522,6 +522,10 @@
                         0.0
                     ], 
                     [
+                        0.17944871333607537, 
+                        0.12332515171595984
+                    ], 
+                    [
                         10.0, 
                         0.0
                     ]
@@ -669,7 +673,7 @@
                 "pressure": [
                     [
                         0.0, 
-                        0.0379551478794643
+                        0.0
                     ], 
                     [
                         0.0, 
@@ -702,7 +706,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 2.5, 
+            "base_value": 1.6, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -721,7 +725,7 @@
                     ], 
                     [
                         0.0, 
-                        1.1480000000000001
+                        0.5739999999999998
                     ], 
                     [
                         10.0, 
@@ -911,10 +915,6 @@
                     ]
                 ]
             }
-        }, 
-        "smudge_lock": {
-            "base_value": 0.0, 
-            "inputs": {}
         }, 
         "smudge_normal_sub": {
             "base_value": 1.0, 
