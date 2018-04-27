@@ -1,7 +1,7 @@
 {
-    "cie_h": 89.322010153367, 
-    "cie_s": 3.237240154865299, 
-    "cie_v": 33.55913609414881, 
+    "cie_h": 150.2204606686539, 
+    "cie_s": 12.681416921565436, 
+    "cie_v": 37.29303785984081, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.11083581033858199, 
+            "base_value": 0.3559898598642774, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.10931914683286198, 
+            "base_value": 0.20590108678355853, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.42003042797136747, 
+            "base_value": 0.47367865037390383, 
             "inputs": {}
         }, 
         "colorize": {
@@ -561,7 +561,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -1.4, 
+            "base_value": -0.49999999999999983, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -709,11 +709,33 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -1.62
+                    ], 
+                    [
+                        10.0, 
+                        1.62
+                    ]
+                ]
+            }
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -2.16
+                    ], 
+                    [
+                        10.0, 
+                        2.16
+                    ]
+                ]
+            }
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
