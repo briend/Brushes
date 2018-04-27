@@ -1,9 +1,16 @@
 {
+    "cie_h": 56.020738231563236, 
+    "cie_s": 6.256467744986938, 
+    "cie_v": 3.1501076735890927, 
+    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Arrow", 
     "group": "", 
+    "lightsource_X": 109.85, 
+    "lightsource_Y": 100.0, 
+    "lightsource_Z": 35.585, 
     "notes": "Author: Brien Dieterle\nLicense: CC0/Public Domain", 
-    "parent_brush_name": "Dieterle/arrow", 
+    "parent_brush_name": "Dieterle/arrow#1", 
     "settings": {
         "anti_aliasing": {
             "base_value": 1.0, 
@@ -30,7 +37,7 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.0, 
+            "base_value": 0.040025117466944926, 
             "inputs": {}
         }, 
         "color_s": {
@@ -38,7 +45,7 @@
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.03533990604361308, 
+            "base_value": 0.06345634210018244, 
             "inputs": {}
         }, 
         "colorize": {
@@ -282,10 +289,6 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_add_sub": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
         "smudge_bucket": {
             "base_value": 0.0, 
             "inputs": {}
@@ -310,11 +313,15 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_lock": {
+        "smudge_normal_sub": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_transparency": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
@@ -362,7 +369,7 @@
             "inputs": {}
         }, 
         "stroke_threshold": {
-            "base_value": 0.0, 
+            "base_value": 0.01, 
             "inputs": {}
         }, 
         "tracking_noise": {
