@@ -1,14 +1,14 @@
 {
-    "cie_h": 32.041234456640275, 
-    "cie_s": 74.68949011364764, 
-    "cie_v": 40.63235159185084, 
+    "cie_h": 165.99739161511422, 
+    "cie_s": 23.639201551569222, 
+    "cie_v": 17.667506523090033, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 109.85, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 35.585, 
     "notes": "Smudge controlled with pressure.  Must have tilt enabled stylus.  Reduce dabs per basic radius to improve performance.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Fan#1", 
     "settings": {
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.9995126198398264, 
+            "base_value": 0.26009727192653614, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9999999999999888, 
+            "base_value": 0.7287081445131234, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8913122772634882, 
+            "base_value": 0.26548656207138865, 
             "inputs": {}
         }, 
         "colorize": {
@@ -807,11 +807,33 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -1.08
+                    ], 
+                    [
+                        10.0, 
+                        1.08
+                    ]
+                ]
+            }
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -3.24
+                    ], 
+                    [
+                        10.0, 
+                        3.24
+                    ]
+                ]
+            }
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
@@ -868,7 +890,7 @@
             }
         }, 
         "smudge_length_log": {
-            "base_value": 4.74, 
+            "base_value": 14.93, 
             "inputs": {}
         }, 
         "smudge_normal_sub": {

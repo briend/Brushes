@@ -1,14 +1,14 @@
 {
-    "cie_h": 31.97665881129585, 
-    "cie_s": 30.145479463231897, 
-    "cie_v": 7.465263885372725, 
+    "cie_h": 256.6503527053194, 
+    "cie_s": 24.49999999999999, 
+    "cie_v": 8.87063761650246, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 109.85, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 35.585, 
     "notes": "Tilting stylus will increase width and draw on side of pencil lead.  Tilting extreme will begin rubbing/smudging drawing.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/8B_Pencil#1", 
     "settings": {
@@ -69,15 +69,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 1.295260195396016e-16, 
+            "base_value": 0.6461514275299293, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.4235322528185233, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.21028111049107157, 
+            "base_value": 0.1639110945729112, 
             "inputs": {}
         }, 
         "colorize": {
@@ -105,7 +105,7 @@
             "inputs": {}
         }, 
         "direction_filter": {
-            "base_value": 1.54, 
+            "base_value": 1.41, 
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
@@ -481,10 +481,6 @@
             "base_value": 0.5, 
             "inputs": {}
         }, 
-        "smudge_lock": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
         "smudge_normal_sub": {
             "base_value": 1.0, 
             "inputs": {}
@@ -495,7 +491,18 @@
         }, 
         "smudge_transparency": {
             "base_value": 0.5, 
-            "inputs": {}
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.0008282470703125089
+                    ], 
+                    [
+                        1.0, 
+                        -0.49
+                    ]
+                ]
+            }
         }, 
         "snap_to_pixel": {
             "base_value": 0.0, 
@@ -518,11 +525,11 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": 7.0, 
+            "base_value": 3.1, 
             "inputs": {}
         }, 
         "stroke_holdtime": {
-            "base_value": 0.0, 
+            "base_value": 10.0, 
             "inputs": {
                 "tilt_declination": [
                     [

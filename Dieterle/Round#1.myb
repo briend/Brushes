@@ -1,14 +1,14 @@
 {
-    "cie_h": 79.02494579670392, 
-    "cie_s": 31.416495357576018, 
-    "cie_v": 31.277021090383663, 
+    "cie_h": 282.18037090295405, 
+    "cie_s": 24.500000000000014, 
+    "cie_v": 10.388136469475457, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Round Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 109.85, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 35.585, 
     "notes": "Smudge controlled with pressure.  Must have tilt enabled stylus.  Reduce dabs per basic radius to improve performance.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Round#1", 
     "settings": {
@@ -37,15 +37,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.11509294191425495, 
+            "base_value": 0.8419651121998707, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.5160423573465139, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5022055020025683, 
+            "base_value": 0.18668406631566295, 
             "inputs": {}
         }, 
         "colorize": {
@@ -757,7 +757,7 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 1.0, 
             "inputs": {
                 "custom": [
                     [

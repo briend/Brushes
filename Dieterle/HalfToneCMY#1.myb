@@ -1,14 +1,14 @@
 {
-    "cie_h": 106.57959407088373, 
-    "cie_s": 57.415760341703944, 
-    "cie_v": 95.47281159411868, 
+    "cie_h": 245.79788228432312, 
+    "cie_s": 24.500000000000014, 
+    "cie_v": 94.19920953611368, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 109.85, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 35.585, 
     "notes": "HalfTone printer effect. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/HalfToneCMY#1", 
     "settings": {
@@ -117,15 +117,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.1679579285856169, 
+            "base_value": 0.09302477655151896, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9244827498144735, 
+            "base_value": 0.3575630672483392, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.9999999999999997, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "colorize": {
@@ -791,11 +791,11 @@
             }
         }, 
         "smudge_darken": {
-            "base_value": 0.0, 
+            "base_value": -4.43, 
             "inputs": {}
         }, 
         "smudge_desaturation": {
-            "base_value": 0.0, 
+            "base_value": -20.0, 
             "inputs": {}
         }, 
         "smudge_gamma": {
@@ -810,10 +810,6 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_lock": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
         "smudge_normal_sub": {
             "base_value": 1.0, 
             "inputs": {}
@@ -823,7 +819,7 @@
             "inputs": {}
         }, 
         "smudge_transparency": {
-            "base_value": 0.48, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "snap_to_pixel": {
