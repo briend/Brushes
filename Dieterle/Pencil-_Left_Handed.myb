@@ -9,8 +9,8 @@
     "lightsource_X": 95.047, 
     "lightsource_Y": 100.0, 
     "lightsource_Z": 108.883, 
-    "notes": "Right hand angle w/ direction input\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
-    "parent_brush_name": "Dieterle/8B_Pencil#1", 
+    "notes": "left-handed angle\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
+    "parent_brush_name": "Dieterle/Pencil-_Left_Handed", 
     "settings": {
         "anti_aliasing": {
             "base_value": 0.0, 
@@ -288,11 +288,11 @@
                     ], 
                     [
                         36.0, 
-                        -0.0
+                        2.26
                     ], 
                     [
-                        162.0, 
-                        2.26
+                        144.0, 
+                        -0.0
                     ], 
                     [
                         180.0, 

@@ -1,7 +1,7 @@
 {
-    "cie_h": 150.2204606686539, 
-    "cie_s": 12.681416921565436, 
-    "cie_v": 37.29303785984081, 
+    "cie_h": 105.57513640539123, 
+    "cie_s": 16.78684016061769, 
+    "cie_v": 8.950807641231071, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -9,7 +9,7 @@
     "lightsource_X": 95.047, 
     "lightsource_Y": 100.0, 
     "lightsource_Z": 108.883, 
-    "notes": "Smudge controlled with pressure.  Must have tilt enabled stylus.  Reduce dabs per basic radius to improve performance.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
+    "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Flat2#1", 
     "settings": {
         "anti_aliasing": {
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.3559898598642774, 
+            "base_value": 0.1649164100629428, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.20590108678355853, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.47367865037390383, 
+            "base_value": 0.12304602728949704, 
             "inputs": {}
         }, 
         "colorize": {
