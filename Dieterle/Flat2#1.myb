@@ -1,7 +1,7 @@
 {
-    "cie_h": 105.57513640539123, 
-    "cie_s": 16.78684016061769, 
-    "cie_v": 8.950807641231071, 
+    "cie_h": 99.86506422359106, 
+    "cie_s": 45.114166881659806, 
+    "cie_v": 61.664444219928185, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -100,7 +100,7 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.1649164100629428, 
+            "base_value": 0.1521160023910697, 
             "inputs": {}
         }, 
         "color_s": {
@@ -108,7 +108,7 @@
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.12304602728949704, 
+            "base_value": 0.7469991629464281, 
             "inputs": {}
         }, 
         "colorize": {
@@ -282,16 +282,6 @@
                     [
                         2.0, 
                         0.0
-                    ]
-                ], 
-                "random": [
-                    [
-                        0.0, 
-                        -0.46
-                    ], 
-                    [
-                        1.0, 
-                        0.46
                     ]
                 ]
             }
@@ -519,7 +509,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -561,7 +551,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -0.49999999999999983, 
+            "base_value": -0.2, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -795,11 +785,11 @@
             }
         }, 
         "smudge_normal_sub": {
-            "base_value": 1.0, 
+            "base_value": 0.39, 
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
+            "base_value": -1.6, 
             "inputs": {}
         }, 
         "smudge_transparency": {
@@ -812,15 +802,15 @@
                     ], 
                     [
                         -2.0, 
-                        0.86
+                        0.28
                     ], 
                     [
                         0.31713653029056843, 
-                        0.6713602743343431
+                        0.21858241489955346
                     ], 
                     [
                         2.0, 
-                        0.86
+                        0.28
                     ], 
                     [
                         10.0, 

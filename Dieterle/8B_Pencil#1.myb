@@ -1,7 +1,7 @@
 {
-    "cie_h": 105.57513640539123, 
-    "cie_s": 16.78684016061769, 
-    "cie_v": 8.950807641231071, 
+    "cie_h": 259.0268188626403, 
+    "cie_s": 57.578144270130124, 
+    "cie_v": 18.610658939724473, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
@@ -69,15 +69,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.1649164100629428, 
+            "base_value": 0.6513493654633159, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9663944573259013, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.12304602728949704, 
+            "base_value": 0.8352941176470594, 
             "inputs": {}
         }, 
         "colorize": {
@@ -325,7 +325,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 0.45, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {

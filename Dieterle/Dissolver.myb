@@ -1,7 +1,7 @@
 {
-    "cie_h": 105.57513640539123, 
-    "cie_s": 16.78684016061769, 
-    "cie_v": 8.950807641231071, 
+    "cie_h": 199.3436148070882, 
+    "cie_s": 18.173856671746222, 
+    "cie_v": 15.644506029233597, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender Dissolve", 
@@ -100,7 +100,7 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.1649164100629428, 
+            "base_value": 0.5019601205053815, 
             "inputs": {}
         }, 
         "color_s": {
@@ -108,7 +108,7 @@
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.12304602728949704, 
+            "base_value": 0.2434218052455357, 
             "inputs": {}
         }, 
         "colorize": {
@@ -231,7 +231,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 8.78, 
+            "base_value": 8.11, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -417,16 +417,6 @@
                         180.0, 
                         180.0
                     ]
-                ], 
-                "random": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        1.0, 
-                        0.0
-                    ]
                 ]
             }
         }, 
@@ -540,7 +530,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -578,25 +568,11 @@
                         2.0, 
                         0.07
                     ]
-                ], 
-                "pressure": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        0.4, 
-                        0.0
-                    ], 
-                    [
-                        1.0, 
-                        0.35
-                    ]
                 ]
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.1000000000000002, 
+            "base_value": 0.4000000000000002, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -638,6 +614,16 @@
                     [
                         1.0, 
                         0.21
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        -0.41
+                    ], 
+                    [
+                        1.0, 
+                        0.41
                     ]
                 ]
             }
@@ -726,33 +712,11 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -1.62
-                    ], 
-                    [
-                        10.0, 
-                        1.62
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -2.16
-                    ], 
-                    [
-                        10.0, 
-                        2.16
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
@@ -793,7 +757,7 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
+            "base_value": -1.6, 
             "inputs": {}
         }, 
         "smudge_transparency": {
@@ -810,11 +774,11 @@
                     ], 
                     [
                         0.9, 
-                        -1.0
+                        -0.99
                     ], 
                     [
                         1.0, 
-                        -1.0
+                        -0.99
                     ]
                 ]
             }

@@ -1,14 +1,14 @@
 {
-    "cie_h": 245.79788228432312, 
-    "cie_s": 24.500000000000014, 
-    "cie_v": 94.19920953611368, 
+    "cie_h": 429.3993547340059, 
+    "cie_s": 20.600093485753796, 
+    "cie_v": 94.78040071212519, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
-    "lightsource_X": 109.85, 
+    "lightsource_X": 95.047, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 35.585, 
+    "lightsource_Z": 108.883, 
     "notes": "HalfTone printer effect. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/HalfToneCMY#1", 
     "settings": {
@@ -117,11 +117,11 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.09302477655151896, 
+            "base_value": 0.11867771765038453, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.3575630672483392, 
+            "base_value": 0.31415570959934735, 
             "inputs": {}
         }, 
         "color_v": {
@@ -546,7 +546,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 0.45, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {

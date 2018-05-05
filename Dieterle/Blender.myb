@@ -1,7 +1,7 @@
 {
-    "cie_h": 82.8222747310601, 
-    "cie_s": 22.01229494082698, 
-    "cie_v": 18.695551962681712, 
+    "cie_h": 0.9042654746831021, 
+    "cie_s": 53.87729262935847, 
+    "cie_v": 35.22000026428975, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender", 
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.1179140536454774, 
+            "base_value": 0.922051644275944, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9363433056677584, 
+            "base_value": 0.8570673698553682, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.31002199363753546, 
+            "base_value": 0.7469991629464275, 
             "inputs": {}
         }, 
         "colorize": {
@@ -540,7 +540,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -814,7 +814,7 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
+            "base_value": -1.6, 
             "inputs": {}
         }, 
         "smudge_transparency": {
