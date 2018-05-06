@@ -1,14 +1,14 @@
 {
-    "cie_h": 259.02681886264037, 
-    "cie_s": 57.57814427013012, 
-    "cie_v": 18.610658939724463, 
+    "cie_h": 252.6809384290068, 
+    "cie_s": 34.40000000000003, 
+    "cie_v": 39.680564868644026, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 92.88604392377309, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 69.1227141546093, 
     "notes": "HalfTone printer effect. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/HalfTone#1", 
     "settings": {
@@ -90,15 +90,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6513493654633161, 
+            "base_value": 0.5812075056934769, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9663944573259015, 
+            "base_value": 0.44097200923849017, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8352941176470593, 
+            "base_value": 0.6152515105842927, 
             "inputs": {}
         }, 
         "colorize": {
@@ -591,7 +591,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.37, 
+            "base_value": 0.77, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -785,6 +785,10 @@
         }, 
         "smudge_radius_log": {
             "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

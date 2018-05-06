@@ -1,19 +1,19 @@
 {
-    "cie_h": 56.020738231563236, 
-    "cie_s": 6.256467744986938, 
-    "cie_v": 3.1501076735890927, 
+    "cie_h": 97.84646937423108, 
+    "cie_s": 51.61424559209933, 
+    "cie_v": 82.35452525294677, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Arrow", 
     "group": "", 
-    "lightsource_X": 109.85, 
+    "lightsource_X": 95.047, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 35.585, 
+    "lightsource_Z": 108.883, 
     "notes": "Author: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/arrow#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -37,15 +37,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.040025117466944926, 
+            "base_value": 0.14799446749654221, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9836734693877661, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.06345634210018244, 
+            "base_value": 0.9607843137254922, 
             "inputs": {}
         }, 
         "colorize": {
@@ -131,7 +131,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.8, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "lock_alpha": {
@@ -318,6 +318,10 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
             "base_value": 0.0, 
             "inputs": {}
         }, 

@@ -1,7 +1,7 @@
 {
-    "cie_h": 99.86506422359106, 
-    "cie_s": 45.114166881659806, 
-    "cie_v": 61.664444219928185, 
+    "cie_h": 97.846469374231, 
+    "cie_s": 51.61424559209917, 
+    "cie_v": 82.3545252529467, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -13,18 +13,8 @@
     "parent_brush_name": "Dieterle/Flat2#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0, 
-                        -0.9599999999999997
-                    ], 
-                    [
-                        6.0, 
-                        2.88
-                    ]
-                ], 
                 "custom": [
                     [
                         -2.0, 
@@ -100,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.1521160023910697, 
+            "base_value": 0.14799446749654202, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9836734693877556, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7469991629464281, 
+            "base_value": 0.9607843137254913, 
             "inputs": {}
         }, 
         "colorize": {
@@ -232,7 +222,32 @@
         }, 
         "dabs_per_actual_radius": {
             "base_value": 8.78, 
-            "inputs": {}
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0, 
+                        -6.285999999999999
+                    ], 
+                    [
+                        6.0, 
+                        31.43
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
+                        0.8157142857142854
+                    ], 
+                    [
+                        3.2, 
+                        -5.71
+                    ], 
+                    [
+                        4.0, 
+                        -5.71
+                    ]
+                ]
+            }
         }, 
         "dabs_per_basic_radius": {
             "base_value": 0.0, 
@@ -303,18 +318,8 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0, 
-                        0.2233333333333333
-                    ], 
-                    [
-                        6.0, 
-                        -0.67
-                    ]
-                ], 
                 "custom": [
                     [
                         -2.0, 
@@ -427,7 +432,18 @@
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
-            "inputs": {}
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0, 
+                        -0.22666666666666663
+                    ], 
+                    [
+                        6.0, 
+                        0.68
+                    ]
+                ]
+            }
         }, 
         "offset_by_speed": {
             "base_value": 0.0, 
@@ -537,18 +553,7 @@
         }, 
         "radius_by_random": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -2.0, 
-                        -0.07
-                    ], 
-                    [
-                        2.0, 
-                        0.07
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "radius_logarithmic": {
             "base_value": -0.2, 
@@ -699,33 +704,11 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -1.62
-                    ], 
-                    [
-                        10.0, 
-                        1.62
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -2.16
-                    ], 
-                    [
-                        10.0, 
-                        2.16
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
@@ -743,7 +726,7 @@
             }
         }, 
         "smudge_length": {
-            "base_value": 0.75, 
+            "base_value": 0.98, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -759,37 +742,18 @@
         }, 
         "smudge_length_log": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        0.0
-                    ], 
-                    [
-                        -2.0, 
-                        20.0
-                    ], 
-                    [
-                        0.0, 
-                        16.0
-                    ], 
-                    [
-                        2.0, 
-                        20.0
-                    ], 
-                    [
-                        10.0, 
-                        0.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_normal_sub": {
-            "base_value": 0.39, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {
@@ -798,23 +762,19 @@
                 "custom": [
                     [
                         -10.0, 
+                        0.08
+                    ], 
+                    [
+                        -8.0, 
                         0.0
                     ], 
                     [
-                        -2.0, 
-                        0.28
-                    ], 
-                    [
-                        0.31713653029056843, 
-                        0.21858241489955346
-                    ], 
-                    [
-                        2.0, 
-                        0.28
+                        8.0, 
+                        0.0
                     ], 
                     [
                         10.0, 
-                        0.0
+                        0.08
                     ]
                 ]
             }

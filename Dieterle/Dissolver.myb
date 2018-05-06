@@ -1,7 +1,7 @@
 {
-    "cie_h": 199.3436148070882, 
-    "cie_s": 18.173856671746222, 
-    "cie_v": 15.644506029233597, 
+    "cie_h": 97.84646937423078, 
+    "cie_s": 51.61424559209917, 
+    "cie_v": 82.35452525294677, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender Dissolve", 
@@ -13,7 +13,7 @@
     "parent_brush_name": "Dieterle/Dissolver", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5019601205053815, 
+            "base_value": 0.14799446749654155, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9836734693877562, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.2434218052455357, 
+            "base_value": 0.960784313725494, 
             "inputs": {}
         }, 
         "colorize": {
@@ -313,7 +313,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -572,7 +572,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.4000000000000002, 
+            "base_value": 1.0, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -757,7 +757,11 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": -1.6, 
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

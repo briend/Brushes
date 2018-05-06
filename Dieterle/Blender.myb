@@ -1,7 +1,7 @@
 {
-    "cie_h": 0.9042654746831021, 
-    "cie_s": 53.87729262935847, 
-    "cie_v": 35.22000026428975, 
+    "cie_h": 97.846469374231, 
+    "cie_s": 51.61424559209924, 
+    "cie_v": 82.35452525294677, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender", 
@@ -13,7 +13,7 @@
     "parent_brush_name": "Dieterle/Blender", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.922051644275944, 
+            "base_value": 0.147994467496542, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8570673698553682, 
+            "base_value": 0.9836734693877593, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7469991629464275, 
+            "base_value": 0.9607843137254924, 
             "inputs": {}
         }, 
         "colorize": {
@@ -313,7 +313,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -726,33 +726,11 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -1.62
-                    ], 
-                    [
-                        10.0, 
-                        1.62
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -2.16
-                    ], 
-                    [
-                        10.0, 
-                        2.16
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
@@ -815,6 +793,10 @@
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

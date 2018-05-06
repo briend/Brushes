@@ -1,7 +1,7 @@
 {
-    "cie_h": 99.86506422359106, 
-    "cie_s": 45.114166881659806, 
-    "cie_v": 61.66444421992823, 
+    "cie_h": 246.58722385572796, 
+    "cie_s": 30.82668890641612, 
+    "cie_v": 24.296748767484992, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Round Brush Oil", 
@@ -13,7 +13,7 @@
     "parent_brush_name": "Dieterle/Round#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.29, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -37,15 +37,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.1521160023910698, 
+            "base_value": 0.5816993464052286, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.7669172932330826, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7469991629464282, 
+            "base_value": 0.5215686274509805, 
             "inputs": {}
         }, 
         "colorize": {
@@ -239,7 +239,18 @@
         }, 
         "dabs_per_actual_radius": {
             "base_value": 7.41, 
-            "inputs": {}
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0, 
+                        -0.07086148009008288
+                    ], 
+                    [
+                        6.0, 
+                        5.71
+                    ]
+                ]
+            }
         }, 
         "dabs_per_basic_radius": {
             "base_value": 0.0, 
@@ -340,7 +351,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.86, 
+            "base_value": 1.0, 
             "inputs": {
                 "custom": [
                     [
@@ -673,11 +684,11 @@
                 "brush_radius": [
                     [
                         -2.0, 
-                        1.9999999999999996
+                        1.4699999999999998
                     ], 
                     [
                         6.0, 
-                        -6.0
+                        -4.41
                     ]
                 ], 
                 "pressure": [
@@ -847,6 +858,10 @@
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

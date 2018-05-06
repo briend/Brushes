@@ -1,7 +1,7 @@
 {
-    "cie_h": 429.3993547340059, 
-    "cie_s": 20.600093485753796, 
-    "cie_v": 94.78040071212519, 
+    "cie_h": 68.7519020937579, 
+    "cie_s": 42.91501514344866, 
+    "cie_v": 81.36711990479888, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
@@ -13,7 +13,7 @@
     "parent_brush_name": "Dieterle/HalfToneCMY#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.93, 
+            "base_value": 0.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -117,11 +117,11 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.11867771765038453, 
+            "base_value": 0.10859845282412983, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.31415570959934735, 
+            "base_value": 0.7108304121332809, 
             "inputs": {}
         }, 
         "color_v": {
@@ -239,7 +239,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -618,7 +618,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.37, 
+            "base_value": 1.0699999999999998, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -791,7 +791,7 @@
             }
         }, 
         "smudge_darken": {
-            "base_value": -4.43, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "smudge_desaturation": {
@@ -815,7 +815,11 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
+            "base_value": 0.01, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

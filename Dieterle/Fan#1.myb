@@ -1,7 +1,7 @@
 {
-    "cie_h": 0.9042654746830782, 
-    "cie_s": 53.87729262935859, 
-    "cie_v": 35.22000026428976, 
+    "cie_h": 246.58722385572796, 
+    "cie_s": 30.82668890641613, 
+    "cie_v": 24.296748767484967, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.9220516442759439, 
+            "base_value": 0.5816993464052289, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8570673698553702, 
+            "base_value": 0.7669172932330812, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7469991629464282, 
+            "base_value": 0.5215686274509804, 
             "inputs": {}
         }, 
         "colorize": {
@@ -302,7 +302,32 @@
         }, 
         "dabs_per_actual_radius": {
             "base_value": 13.62, 
-            "inputs": {}
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0, 
+                        -3.888495950504228
+                    ], 
+                    [
+                        6.0, 
+                        25.71
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
+                        1.2242857142857138
+                    ], 
+                    [
+                        3.2, 
+                        -8.57
+                    ], 
+                    [
+                        4.0, 
+                        -8.57
+                    ]
+                ]
+            }
         }, 
         "dabs_per_basic_radius": {
             "base_value": 0.0, 
@@ -373,7 +398,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
                 "custom": [
                     [
@@ -657,7 +682,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -0.2, 
+            "base_value": -0.1999999999999998, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -919,6 +944,10 @@
                     ]
                 ]
             }
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "smudge_transparency": {
             "base_value": 0.4, 

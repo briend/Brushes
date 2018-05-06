@@ -1,14 +1,14 @@
 {
-    "cie_h": 105.57513640539123, 
-    "cie_s": 16.78684016061769, 
-    "cie_v": 8.950807641231071, 
+    "cie_h": 252.6809384290065, 
+    "cie_s": 34.40000000000003, 
+    "cie_v": 39.68056486864405, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 92.88604392377309, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 69.1227141546093, 
     "notes": "left-handed angle\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Pencil-_Left_Handed", 
     "settings": {
@@ -69,15 +69,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.1649164100629428, 
+            "base_value": 0.5812075056934761, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.44097200923849067, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.12304602728949704, 
+            "base_value": 0.6152515105842923, 
             "inputs": {}
         }, 
         "colorize": {
@@ -487,6 +487,10 @@
         }, 
         "smudge_radius_log": {
             "base_value": 0.02, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

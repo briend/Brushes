@@ -1,7 +1,7 @@
 {
-    "cie_h": 259.0268188626403, 
-    "cie_s": 57.578144270130124, 
-    "cie_v": 18.610658939724473, 
+    "cie_h": 211.06051514724706, 
+    "cie_s": 0.7795705779967409, 
+    "cie_v": 12.185683751428204, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
@@ -69,15 +69,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6513493654633159, 
+            "base_value": 0.2653061224489796, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9663944573259013, 
+            "base_value": 8.458680910177544e-15, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8352941176470594, 
+            "base_value": 0.16078431372549204, 
             "inputs": {}
         }, 
         "colorize": {
@@ -487,6 +487,10 @@
         }, 
         "smudge_radius_log": {
             "base_value": 0.02, 
+            "inputs": {}
+        }, 
+        "smudge_spectral": {
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {
