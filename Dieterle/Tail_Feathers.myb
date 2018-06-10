@@ -1,7 +1,7 @@
 {
-    "cie_h": 246.58722385572787, 
-    "cie_s": 30.82668890641614, 
-    "cie_v": 24.29674876748497, 
+    "cie_h": 102.12072829543256, 
+    "cie_s": 55.468626019965754, 
+    "cie_v": 90.84284038307693, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5816993464052288, 
+            "base_value": 0.15711455316026604, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7669172932330814, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5215686274509804, 
+            "base_value": 0.9999999999999997, 
             "inputs": {}
         }, 
         "colorize": {
@@ -302,6 +302,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
@@ -363,6 +367,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -502,6 +510,14 @@
                 ]
             }
         }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -522,7 +538,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.3000000000000003, 
+            "base_value": -0.49999999999999983, 
             "inputs": {
                 "attack_angle": [
                     [

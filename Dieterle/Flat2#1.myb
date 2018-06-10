@@ -1,7 +1,7 @@
 {
-    "cie_h": 97.846469374231, 
-    "cie_s": 51.61424559209917, 
-    "cie_v": 82.3545252529467, 
+    "cie_h": 238.16073865063439, 
+    "cie_s": 31.85932999091355, 
+    "cie_v": 21.492445678328906, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.14799446749654202, 
+            "base_value": 0.5604616112316548, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9836734693877556, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.9607843137254913, 
+            "base_value": 0.47963819918950007, 
             "inputs": {}
         }, 
         "colorize": {
@@ -226,7 +226,7 @@
                 "brush_radius": [
                     [
                         -2.0, 
-                        -6.285999999999999
+                        0.0
                     ], 
                     [
                         6.0, 
@@ -339,16 +339,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -40.0
-                    ], 
-                    [
-                        10.0, 
-                        40.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -390,6 +380,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
@@ -418,6 +412,16 @@
         "offset_angle_asc": {
             "base_value": 0.0, 
             "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -40.32
+                    ], 
+                    [
+                        10.0, 
+                        40.32
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -429,6 +433,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -547,6 +555,14 @@
                 ]
             }
         }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -556,7 +572,7 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": -0.2, 
+            "base_value": 0.1000000000000002, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -741,7 +757,7 @@
             }
         }, 
         "smudge_length_log": {
-            "base_value": 0.0, 
+            "base_value": 7.83, 
             "inputs": {}
         }, 
         "smudge_normal_sub": {

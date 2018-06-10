@@ -1,7 +1,7 @@
 {
-    "cie_h": 246.58722385572796, 
-    "cie_s": 30.82668890641613, 
-    "cie_v": 24.296748767484967, 
+    "cie_h": 102.12072829543253, 
+    "cie_s": 55.46862601996578, 
+    "cie_v": 90.84284038307703, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5816993464052289, 
+            "base_value": 0.1571145531602662, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7669172932330812, 
+            "base_value": 0.9999999999999992, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5215686274509804, 
+            "base_value": 0.9999999999999999, 
             "inputs": {}
         }, 
         "colorize": {
@@ -306,6 +306,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
@@ -367,6 +371,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -506,6 +514,14 @@
                 ]
             }
         }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -526,7 +542,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.3000000000000003, 
+            "base_value": -0.1999999999999998, 
             "inputs": {
                 "attack_angle": [
                     [
