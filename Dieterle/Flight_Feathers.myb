@@ -1,7 +1,7 @@
 {
-    "cie_h": 277.09340134362355, 
-    "cie_s": 29.97585138152839, 
-    "cie_v": 10.377939628729921, 
+    "cie_h": 260.8906680028379, 
+    "cie_s": 51.78742040891486, 
+    "cie_v": 14.199424375826656, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6976190476190477, 
+            "base_value": 0.6851851851851855, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7608695652173912, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.3607843137254904, 
+            "base_value": 0.7058823529411785, 
             "inputs": {}
         }, 
         "colorize": {
@@ -307,19 +307,13 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ], 
                 "custom": [
                     [
                         -10.0, 
@@ -368,6 +362,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -516,6 +514,14 @@
                     ]
                 ]
             }
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
         }, 
         "pressure_gain_log": {
             "base_value": 0.0, 

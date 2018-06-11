@@ -1,7 +1,7 @@
 {
-    "cie_h": 102.12072829543256, 
-    "cie_s": 55.468626019965754, 
-    "cie_v": 90.84284038307693, 
+    "cie_h": 260.8906680028379, 
+    "cie_s": 51.78742040891487, 
+    "cie_v": 14.199424375826672, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.15711455316026604, 
+            "base_value": 0.6851851851851852, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9999999999999997, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.9999999999999997, 
+            "base_value": 0.7058823529411788, 
             "inputs": {}
         }, 
         "colorize": {
@@ -309,16 +309,6 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ], 
                 "custom": [
                     [
                         -10.0, 

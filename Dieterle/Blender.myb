@@ -1,7 +1,7 @@
 {
-    "cie_h": 97.846469374231, 
-    "cie_s": 51.61424559209924, 
-    "cie_v": 82.35452525294677, 
+    "cie_h": 260.89066800283786, 
+    "cie_s": 51.787420408914905, 
+    "cie_v": 14.199424375826695, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender", 
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.147994467496542, 
+            "base_value": 0.6851851851851847, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9836734693877593, 
+            "base_value": 0.999999999999998, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.9607843137254924, 
+            "base_value": 0.7058823529411794, 
             "inputs": {}
         }, 
         "colorize": {
@@ -405,19 +405,13 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -444,6 +438,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -561,6 +559,14 @@
                     ]
                 ]
             }
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
         }, 
         "pressure_gain_log": {
             "base_value": 0.0, 

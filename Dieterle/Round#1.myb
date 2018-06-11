@@ -1,7 +1,7 @@
 {
-    "cie_h": 246.58722385572796, 
-    "cie_s": 30.82668890641612, 
-    "cie_v": 24.296748767484992, 
+    "cie_h": 260.89066800283786, 
+    "cie_s": 51.787420408914905, 
+    "cie_v": 14.199424375826695, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Round Brush Oil", 
@@ -37,15 +37,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.5816993464052286, 
+            "base_value": 0.6851851851851847, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7669172932330826, 
+            "base_value": 0.999999999999998, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5215686274509805, 
+            "base_value": 0.7058823529411794, 
             "inputs": {}
         }, 
         "colorize": {
@@ -456,6 +456,10 @@
                 ]
             }
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
@@ -467,16 +471,6 @@
                     [
                         180.0, 
                         0.0
-                    ]
-                ], 
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
                     ]
                 ], 
                 "custom": [
@@ -515,6 +509,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 0.0, 
@@ -658,6 +656,14 @@
                     ]
                 ]
             }
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
         }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
