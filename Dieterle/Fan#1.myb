@@ -1,8 +1,8 @@
 {
-    "cie_h": 246.58722385572796, 
-    "cie_s": 30.82668890641613, 
-    "cie_v": 24.296748767484967, 
-    "cieaxes": "JMh", 
+    "cie_h": 258.6287436023965, 
+    "cie_s": 103.27992674174591, 
+    "cie_v": 28.73226048942634, 
+    "cieaxes": "Qsh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5816993464052289, 
+            "base_value": 0.6599998831541409, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7669172932330812, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5215686274509804, 
+            "base_value": 0.30372099605439973, 
             "inputs": {}
         }, 
         "colorize": {
@@ -480,19 +480,13 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ], 
                 "custom": [
                     [
                         -10.0, 
@@ -516,6 +510,10 @@
             }
         }, 
         "offset_angle_asc": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_angle_view": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
@@ -662,6 +660,14 @@
                 ]
             }
         }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -682,7 +688,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -0.1999999999999998, 
+            "base_value": 0.1000000000000002, 
             "inputs": {
                 "attack_angle": [
                     [

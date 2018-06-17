@@ -1,19 +1,19 @@
 {
-    "cie_h": 241.44678737118903, 
-    "cie_s": 62.80006220730113, 
-    "cie_v": 92.0746185921253, 
-    "cieaxes": "Qsh", 
+    "cie_h": 75.42991177314077, 
+    "cie_s": 56.442326667294836, 
+    "cie_v": 84.65543890911793, 
+    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
-    "description": "Fan Brush Oil", 
+    "description": "Blender", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 220.24210707129689, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
-    "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
-    "parent_brush_name": "Dieterle/Tail_Feathers", 
+    "lightsource_Z": 1065.399245987339, 
+    "notes": "Pressure controls blend fineness\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
+    "parent_brush_name": "Dieterle/Posterizer", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -51,7 +51,18 @@
         }, 
         "change_color_l": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        0.0
+                    ], 
+                    [
+                        10.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "change_color_v": {
             "base_value": 0.0, 
@@ -69,10 +80,6 @@
                 "custom": [
                     [
                         -10.0, 
-                        -0.05
-                    ], 
-                    [
-                        -8.0, 
                         0.0
                     ], 
                     [
@@ -93,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5749785723449529, 
+            "base_value": 0.9136710943092169, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.5889067232216222, 
+            "base_value": 0.5613685015606106, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8938228934151793, 
+            "base_value": 0.830810672265945, 
             "inputs": {}
         }, 
         "colorize": {
@@ -127,6 +134,82 @@
                         -10.0
                     ], 
                     [
+                        0.1, 
+                        -10.0
+                    ], 
+                    [
+                        0.1, 
+                        -8.0
+                    ], 
+                    [
+                        0.2, 
+                        -8.0
+                    ], 
+                    [
+                        0.2, 
+                        -6.000000000000001
+                    ], 
+                    [
+                        0.3, 
+                        -6.000000000000001
+                    ], 
+                    [
+                        0.3, 
+                        -3.999999999999999
+                    ], 
+                    [
+                        0.4, 
+                        -3.999999999999999
+                    ], 
+                    [
+                        0.4, 
+                        -1.9999999999999996
+                    ], 
+                    [
+                        0.5, 
+                        -1.9999999999999996
+                    ], 
+                    [
+                        0.5, 
+                        0.0
+                    ], 
+                    [
+                        0.6, 
+                        0.0
+                    ], 
+                    [
+                        0.6, 
+                        1.9999999999999996
+                    ], 
+                    [
+                        0.7, 
+                        1.9999999999999996
+                    ], 
+                    [
+                        0.7, 
+                        4.0
+                    ], 
+                    [
+                        0.8, 
+                        4.0
+                    ], 
+                    [
+                        0.8, 
+                        6.0
+                    ], 
+                    [
+                        0.9, 
+                        6.0
+                    ], 
+                    [
+                        0.9, 
+                        8.0
+                    ], 
+                    [
+                        1.0, 
+                        8.0
+                    ], 
+                    [
                         1.0, 
                         10.0
                     ]
@@ -148,7 +231,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 23.26, 
+            "base_value": 8.78, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -200,6 +283,16 @@
                         2.0, 
                         0.0
                     ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        -0.46
+                    ], 
+                    [
+                        1.0, 
+                        0.46
+                    ]
                 ]
             }
         }, 
@@ -220,7 +313,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 1.0, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -241,6 +334,16 @@
                         2.0, 
                         0.0
                     ]
+                ], 
+                "pressure": [
+                    [
+                        0.0, 
+                        -0.1266666698124674
+                    ], 
+                    [
+                        1.0, 
+                        0.19
+                    ]
                 ]
             }
         }, 
@@ -250,7 +353,28 @@
         }, 
         "offset_angle": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -40.0
+                    ], 
+                    [
+                        10.0, 
+                        40.0
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "offset_angle_2": {
             "base_value": 0.0, 
@@ -263,16 +387,6 @@
                     [
                         180.0, 
                         0.0
-                    ]
-                ], 
-                "custom": [
-                    [
-                        -10.0, 
-                        -2.04081632653061
-                    ], 
-                    [
-                        10.0, 
-                        40.0
                     ]
                 ], 
                 "pressure": [
@@ -298,36 +412,14 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        0.0
-                    ], 
-                    [
-                        10.0, 
-                        46.29
-                    ]
-                ], 
-                "speed1": [
+                "random": [
                     [
                         0.0, 
-                        -0.5481112733179228
-                    ], 
-                    [
-                        1.6, 
                         0.0
                     ], 
                     [
-                        2.4, 
+                        1.0, 
                         0.0
-                    ], 
-                    [
-                        3.2, 
-                        45.0
-                    ], 
-                    [
-                        4.0, 
-                        45.0
                     ]
                 ]
             }
@@ -353,7 +445,18 @@
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
-            "inputs": {}
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        2.2533333892954728
+                    ], 
+                    [
+                        1.0, 
+                        -3.38
+                    ]
+                ]
+            }
         }, 
         "offset_by_speed": {
             "base_value": 0.0, 
@@ -375,44 +478,8 @@
             "inputs": {}
         }, 
         "offset_multiplier": {
-            "base_value": 0.0, 
+            "base_value": -0.43, 
             "inputs": {
-                "speed1": [
-                    [
-                        0.0, 
-                        -0.0
-                    ], 
-                    [
-                        2.8, 
-                        -0.0
-                    ], 
-                    [
-                        3.6, 
-                        -2.45
-                    ], 
-                    [
-                        4.0, 
-                        -2.45
-                    ]
-                ], 
-                "stroke": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        0.2004942013982028, 
-                        0.6040561037647482
-                    ], 
-                    [
-                        0.45, 
-                        0.9810000000000001
-                    ], 
-                    [
-                        1.0, 
-                        1.09
-                    ]
-                ], 
                 "tilt_declination": [
                     [
                         0.0, 
@@ -434,8 +501,30 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 1.0, 
+            "base_value": 1.1, 
             "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -0.01
+                    ], 
+                    [
+                        -9.0, 
+                        0.0
+                    ], 
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        9.0, 
+                        0.0
+                    ], 
+                    [
+                        10.0, 
+                        -0.01
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -444,24 +533,6 @@
                     [
                         1.0, 
                         0.0
-                    ]
-                ], 
-                "speed1": [
-                    [
-                        0.0, 
-                        -0.01034732740752542
-                    ], 
-                    [
-                        2.8, 
-                        -0.0
-                    ], 
-                    [
-                        3.6, 
-                        -2.0
-                    ], 
-                    [
-                        4.0, 
-                        -2.0
                     ]
                 ]
             }
@@ -490,12 +561,23 @@
             }
         }, 
         "posterize": {
-            "base_value": 0.0, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "posterize_num": {
-            "base_value": 0.05000000074505806, 
-            "inputs": {}
+            "base_value": 0.02, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.4
+                    ], 
+                    [
+                        1.0, 
+                        -0.0
+                    ]
+                ]
+            }
         }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
@@ -513,11 +595,25 @@
                         2.0, 
                         0.07
                     ]
+                ], 
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        0.4, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.35
+                    ]
                 ]
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -0.49999999999999983, 
+            "base_value": 0.4000000000000002, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -532,11 +628,19 @@
                 "brush_radius": [
                     [
                         -2.0, 
-                        1.0041246305257268
+                        1.9999999999999996
+                    ], 
+                    [
+                        0.0, 
+                        -0.0
+                    ], 
+                    [
+                        3.5999999999999996, 
+                        -1.1999999999999997
                     ], 
                     [
                         6.0, 
-                        -2.5103115763143173
+                        -6.0
                     ]
                 ], 
                 "pressure": [
@@ -545,8 +649,12 @@
                         0.0
                     ], 
                     [
-                        1.0, 
+                        0.4, 
                         0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.21
                     ]
                 ]
             }
@@ -564,30 +672,8 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 0.0, 
             "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -1.0
-                    ], 
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        0.3, 
-                        0.0
-                    ], 
-                    [
-                        0.8, 
-                        -1.0
-                    ], 
-                    [
-                        1.0, 
-                        -1.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -642,18 +728,7 @@
         }, 
         "smudge_bucket": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        0.0
-                    ], 
-                    [
-                        10.0, 
-                        255.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
@@ -664,11 +739,22 @@
             "inputs": {}
         }, 
         "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
+            "base_value": 1.0, 
+            "inputs": {
+                "attack_angle": [
+                    [
+                        -180.0, 
+                        0.0
+                    ], 
+                    [
+                        180.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "smudge_length": {
-            "base_value": 0.75, 
+            "base_value": 0.5, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -683,11 +769,22 @@
             }
         }, 
         "smudge_length_log": {
-            "base_value": 4.08, 
-            "inputs": {}
+            "base_value": 0.0, 
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0, 
+                        -6.666666666666665
+                    ], 
+                    [
+                        6.0, 
+                        20.0
+                    ]
+                ]
+            }
         }, 
         "smudge_normal_sub": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {
@@ -695,7 +792,7 @@
             "inputs": {}
         }, 
         "smudge_spectral": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {
@@ -707,7 +804,7 @@
             "inputs": {}
         }, 
         "speed1_gamma": {
-            "base_value": 1.0, 
+            "base_value": 4.0, 
             "inputs": {}
         }, 
         "speed1_slowness": {
@@ -723,12 +820,23 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": 2.55, 
+            "base_value": 7.93, 
             "inputs": {}
         }, 
         "stroke_holdtime": {
-            "base_value": 0.0, 
-            "inputs": {}
+            "base_value": 10.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "stroke_threshold": {
             "base_value": 0.01, 

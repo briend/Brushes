@@ -1,8 +1,8 @@
 {
-    "cie_h": 68.7519020937579, 
-    "cie_s": 42.91501514344866, 
-    "cie_v": 81.36711990479888, 
-    "cieaxes": "JMh", 
+    "cie_h": 109.63948353844098, 
+    "cie_s": 70.2501806063194, 
+    "cie_v": 119.8643058249461, 
+    "cieaxes": "Qsh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
@@ -117,15 +117,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.10859845282412983, 
+            "base_value": 0.17577847765143276, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7108304121332809, 
+            "base_value": 0.9996627804871135, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 1.0, 
+            "base_value": 0.9999985013138489, 
             "inputs": {}
         }, 
         "colorize": {
@@ -310,6 +310,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {}
@@ -338,6 +342,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 0.0, 
@@ -578,6 +586,14 @@
                 ]
             }
         }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -618,7 +634,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.0699999999999998, 
+            "base_value": 0.77, 
             "inputs": {
                 "attack_angle": [
                     [
