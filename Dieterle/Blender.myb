@@ -1,7 +1,7 @@
 {
-    "cie_h": 260.89066800283786, 
-    "cie_s": 51.787420408914905, 
-    "cie_v": 14.199424375826695, 
+    "cie_h": 259.7626664678552, 
+    "cie_s": 64.94828710150702, 
+    "cie_v": 21.637463279049857, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender", 
@@ -100,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6851851851851847, 
+            "base_value": 0.6831053081217013, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.999999999999998, 
+            "base_value": 0.9999276489652277, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7058823529411794, 
+            "base_value": 0.9999741702029271, 
             "inputs": {}
         }, 
         "colorize": {
@@ -354,16 +354,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -40.0
-                    ], 
-                    [
-                        10.0, 
-                        40.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -412,6 +402,16 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
+                "barrel_rotation": [
+                    [
+                        -180.0, 
+                        -180.0
+                    ], 
+                    [
+                        180.0, 
+                        180.0
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -427,6 +427,16 @@
         "offset_angle_asc": {
             "base_value": 0.0, 
             "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -39.04
+                    ], 
+                    [
+                        10.0, 
+                        39.04
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 

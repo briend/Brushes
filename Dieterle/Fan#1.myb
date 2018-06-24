@@ -1,8 +1,8 @@
 {
-    "cie_h": 258.6287436023965, 
-    "cie_s": 103.27992674174591, 
-    "cie_v": 28.73226048942634, 
-    "cieaxes": "Qsh", 
+    "cie_h": 259.7626664678551, 
+    "cie_s": 64.94828710150688, 
+    "cie_v": 21.63746327904984, 
+    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6599998831541409, 
+            "base_value": 0.6831053081216997, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.9999276489652198, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.30372099605439973, 
+            "base_value": 0.999974170202924, 
             "inputs": {}
         }, 
         "colorize": {
@@ -326,6 +326,16 @@
                         4.0, 
                         -8.57
                     ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        21.49
+                    ], 
+                    [
+                        1.0, 
+                        -0.0
+                    ]
                 ]
             }
         }, 
@@ -419,16 +429,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -40.0
-                    ], 
-                    [
-                        10.0, 
-                        40.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -487,6 +487,16 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
+                "barrel_rotation": [
+                    [
+                        -180.0, 
+                        -180.0
+                    ], 
+                    [
+                        180.0, 
+                        180.0
+                    ]
+                ], 
                 "custom": [
                     [
                         -10.0, 
@@ -511,7 +521,18 @@
         }, 
         "offset_angle_asc": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -40.96
+                    ], 
+                    [
+                        10.0, 
+                        40.96
+                    ]
+                ]
+            }
         }, 
         "offset_angle_view": {
             "base_value": 0.0, 
@@ -610,6 +631,20 @@
                     [
                         1.0, 
                         -0.77
+                    ]
+                ], 
+                "tilt_declination": [
+                    [
+                        0.0, 
+                        -0.0
+                    ], 
+                    [
+                        72.0, 
+                        -0.0
+                    ], 
+                    [
+                        90.0, 
+                        -2.64
                     ]
                 ]
             }
@@ -743,16 +778,20 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 1.0, 
             "inputs": {
                 "pressure": [
                     [
                         0.0, 
-                        -0.0
+                        -1.0
+                    ], 
+                    [
+                        0.0, 
+                        0.0
                     ], 
                     [
                         0.3, 
-                        -0.0
+                        0.0
                     ], 
                     [
                         1.0, 
@@ -956,19 +995,8 @@
             "inputs": {}
         }, 
         "smudge_transparency": {
-            "base_value": 0.4, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -0.44
-                    ], 
-                    [
-                        1.0, 
-                        -0.009984616649394144
-                    ]
-                ]
-            }
+            "base_value": 0.23, 
+            "inputs": {}
         }, 
         "snap_to_pixel": {
             "base_value": 0.0, 

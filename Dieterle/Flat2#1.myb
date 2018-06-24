@@ -1,7 +1,7 @@
 {
-    "cie_h": 261.00743802190584, 
-    "cie_s": 51.92759343496229, 
-    "cie_v": 14.309868302481036, 
+    "cie_h": 7.041518977972713, 
+    "cie_s": 35.30622351095066, 
+    "cie_v": 35.99078524862947, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6857895818836454, 
+            "base_value": 0.9559939649482458, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9999999999999991, 
+            "base_value": 0.5861356135480438, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7093686761906075, 
+            "base_value": 0.6713609838791802, 
             "inputs": {}
         }, 
         "colorize": {
@@ -339,16 +339,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -41.6
-                    ], 
-                    [
-                        10.0, 
-                        41.6
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -397,6 +387,16 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
+                "barrel_rotation": [
+                    [
+                        -180.0, 
+                        -180.0
+                    ], 
+                    [
+                        180.0, 
+                        180.0
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -412,6 +412,16 @@
         "offset_angle_asc": {
             "base_value": 0.0, 
             "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -41.6
+                    ], 
+                    [
+                        10.0, 
+                        41.6
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
