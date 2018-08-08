@@ -1,14 +1,14 @@
 {
-    "cie_h": 259.7626664678551, 
-    "cie_s": 64.94828710150688, 
-    "cie_v": 21.63746327904984, 
+    "cie_h": 193.88032670454547, 
+    "cie_s": 25.32318624009811, 
+    "cie_v": 88.04024831811708, 
     "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
+    "lightsource_X": 98.18592083674102, 
     "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
+    "lightsource_Z": 85.57880477648288, 
     "notes": "Smudge controlled with pressure.  Fan starts out spread but contracts with stroke distance\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Fan#1", 
     "settings": {
@@ -90,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6831053081216997, 
+            "base_value": 0.24646951627861005, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9999276489652198, 
+            "base_value": 0.09117163004069577, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.999974170202924, 
+            "base_value": 0.8907249784309111, 
             "inputs": {}
         }, 
         "colorize": {
@@ -348,7 +348,7 @@
             "inputs": {}
         }, 
         "direction_filter": {
-            "base_value": 0.0, 
+            "base_value": 0.64, 
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
@@ -606,31 +606,31 @@
                 "stroke": [
                     [
                         0.0, 
-                        0.77
+                        0.32800000000000007
                     ], 
                     [
                         0.1, 
-                        0.4620000000000001
+                        0.24600000000000002
                     ], 
                     [
                         0.12145613294860627, 
-                        0.23757594517299113
+                        0.12650147729990435
                     ], 
                     [
                         0.21543326028963414, 
-                        -0.20461325509207592
+                        -0.10894991504902748
                     ], 
                     [
                         0.37884627817399824, 
-                        -0.5925405011858259
+                        -0.31550857855349185
                     ], 
                     [
                         0.6, 
-                        -0.6930000000000001
+                        -0.36900000000000005
                     ], 
                     [
                         1.0, 
-                        -0.77
+                        -0.41
                     ]
                 ], 
                 "tilt_declination": [
@@ -877,33 +877,11 @@
         }, 
         "smudge_darken": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -1.08
-                    ], 
-                    [
-                        10.0, 
-                        1.08
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_desaturation": {
             "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -3.24
-                    ], 
-                    [
-                        10.0, 
-                        3.24
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_gamma": {
             "base_value": 2.4, 
