@@ -1,30 +1,20 @@
 {
-    "cie_h": 282.61434146198997,
-    "cie_s": 86.6164702114453,
-    "cie_v": 35.50833321266724,
+    "cie_h": 261.8928606103084,
+    "cie_s": 44.69870503433606,
+    "cie_v": 35.48269688613095,
     "cieaxes": "JMh",
     "comment": "MyPaint brush file",
-    "description": "Blender",
+    "description": "Fan Brush Oil",
     "group": "",
-    "lightsource_X": 95.04559270516715,
+    "lightsource_X": 91.18826549950585,
     "lightsource_Y": 100.0,
-    "lightsource_Z": 108.90577507598785,
-    "notes": "Pressure controls blend fineness\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain",
-    "parent_brush_name": "Dieterle/Blender",
+    "lightsource_Z": 84.72893515972561,
+    "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain",
+    "parent_brush_name": "Dieterle/WateryFlatbrush",
     "settings": {
         "anti_aliasing": {
             "base_value": 0.0,
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0,
-                        -0.9599999999999997
-                    ],
-                    [
-                        6.0,
-                        2.88
-                    ]
-                ],
                 "custom": [
                     [
                         -2.0,
@@ -100,15 +90,15 @@
             }
         },
         "color_h": {
-            "base_value": 0.6667193043193781,
+            "base_value": 0.5816993464052288,
             "inputs": {}
         },
         "color_s": {
-            "base_value": 0.999842048436753,
+            "base_value": 0.7669172932330827,
             "inputs": {}
         },
         "color_v": {
-            "base_value": 0.9999078311287798,
+            "base_value": 0.5215686274509804,
             "inputs": {}
         },
         "colorize": {
@@ -232,7 +222,50 @@
         },
         "dabs_per_actual_radius": {
             "base_value": 8.78,
-            "inputs": {}
+            "inputs": {
+                "brush_radius": [
+                    [
+                        -2.0,
+                        0.0
+                    ],
+                    [
+                        6.0,
+                        31.43
+                    ]
+                ],
+                "speed1": [
+                    [
+                        0.0,
+                        0.8157142857142854
+                    ],
+                    [
+                        3.2,
+                        -5.71
+                    ],
+                    [
+                        4.0,
+                        -5.71
+                    ]
+                ],
+                "stroke": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        40.42
+                    ],
+                    [
+                        1.0,
+                        40.42
+                    ]
+                ]
+            }
         },
         "dabs_per_basic_radius": {
             "base_value": 0.0,
@@ -283,16 +316,6 @@
                         2.0,
                         0.0
                     ]
-                ],
-                "random": [
-                    [
-                        0.0,
-                        -0.46
-                    ],
-                    [
-                        1.0,
-                        0.46
-                    ]
                 ]
             }
         },
@@ -315,16 +338,6 @@
         "hardness": {
             "base_value": 1.0,
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0,
-                        0.2233333333333333
-                    ],
-                    [
-                        6.0,
-                        -0.67
-                    ]
-                ],
                 "custom": [
                     [
                         -2.0,
@@ -333,16 +346,6 @@
                     [
                         2.0,
                         0.0
-                    ]
-                ],
-                "pressure": [
-                    [
-                        0.0,
-                        -0.1266666698124674
-                    ],
-                    [
-                        1.0,
-                        0.19
                     ]
                 ]
             }
@@ -430,11 +433,11 @@
                 "custom": [
                     [
                         -10.0,
-                        -39.04
+                        -41.6
                     ],
                     [
                         10.0,
-                        39.04
+                        41.6
                     ]
                 ],
                 "random": [
@@ -456,14 +459,14 @@
         "offset_by_random": {
             "base_value": 1.07,
             "inputs": {
-                "pressure": [
+                "brush_radius": [
                     [
-                        0.0,
-                        2.2533333892954728
+                        -2.0,
+                        -0.22666666666666663
                     ],
                     [
-                        1.0,
-                        -3.38
+                        6.0,
+                        0.68
                     ]
                 ]
             }
@@ -490,6 +493,28 @@
         "offset_multiplier": {
             "base_value": -0.43,
             "inputs": {
+                "stroke": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        0.0
+                    ],
+                    [
+                        0.7,
+                        0.39
+                    ],
+                    [
+                        0.8,
+                        0.0
+                    ],
+                    [
+                        1.0,
+                        0.37459924191844707
+                    ]
+                ],
                 "tilt_declination": [
                     [
                         0.0,
@@ -504,14 +529,64 @@
         },
         "offset_x": {
             "base_value": 0.0,
-            "inputs": {}
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        0.0
+                    ],
+                    [
+                        0.6,
+                        80.0
+                    ],
+                    [
+                        0.6,
+                        -80.0
+                    ],
+                    [
+                        0.7,
+                        0.0
+                    ],
+                    [
+                        1.0,
+                        80.0
+                    ]
+                ]
+            }
         },
         "offset_y": {
             "base_value": 0.0,
-            "inputs": {}
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0,
+                        -1.1604153380102034
+                    ],
+                    [
+                        0.5,
+                        0.0
+                    ],
+                    [
+                        0.8,
+                        0.0
+                    ],
+                    [
+                        0.8,
+                        -80.0
+                    ],
+                    [
+                        1.0,
+                        80.0
+                    ]
+                ]
+            }
         },
         "opaque": {
-            "base_value": 1.1,
+            "base_value": 2.0,
             "inputs": {
                 "custom": [
                     [
@@ -584,35 +659,10 @@
         },
         "radius_by_random": {
             "base_value": 0.0,
-            "inputs": {
-                "custom": [
-                    [
-                        -2.0,
-                        -0.07
-                    ],
-                    [
-                        2.0,
-                        0.07
-                    ]
-                ],
-                "pressure": [
-                    [
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        0.4,
-                        0.0
-                    ],
-                    [
-                        1.0,
-                        0.35
-                    ]
-                ]
-            }
+            "inputs": {}
         },
         "radius_logarithmic": {
-            "base_value": -0.1999999999999998,
+            "base_value": -0.19999999999999984,
             "inputs": {
                 "attack_angle": [
                     [
@@ -648,12 +698,8 @@
                         0.0
                     ],
                     [
-                        0.4,
-                        0.0
-                    ],
-                    [
                         1.0,
-                        0.21
+                        0.0
                     ]
                 ]
             }
@@ -671,8 +717,30 @@
             "inputs": {}
         },
         "smudge": {
-            "base_value": 1.0,
+            "base_value": 0.99,
             "inputs": {
+                "pressure": [
+                    [
+                        0.0,
+                        -1.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.3,
+                        0.0
+                    ],
+                    [
+                        0.8,
+                        -1.0
+                    ],
+                    [
+                        1.0,
+                        -1.0
+                    ]
+                ],
                 "random": [
                     [
                         0.0,
@@ -691,6 +759,24 @@
                     [
                         4.0,
                         0.0
+                    ]
+                ],
+                "stroke": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        0.0
+                    ],
+                    [
+                        0.5,
+                        0.77
+                    ],
+                    [
+                        1.0,
+                        0.77
                     ]
                 ],
                 "surfacemap_x": [
@@ -749,7 +835,7 @@
             "inputs": {}
         },
         "smudge_gamma": {
-            "base_value": 2.22,
+            "base_value": 2.4,
             "inputs": {
                 "attack_angle": [
                     [
@@ -764,7 +850,7 @@
             }
         },
         "smudge_length": {
-            "base_value": 0.5,
+            "base_value": 0.98,
             "inputs": {
                 "attack_angle": [
                     [
@@ -775,30 +861,46 @@
                         180.0,
                         0.0
                     ]
+                ],
+                "stroke": [
+                    [
+                        0.0,
+                        -0.0
+                    ],
+                    [
+                        0.5,
+                        -0.0
+                    ],
+                    [
+                        0.5,
+                        -0.52
+                    ],
+                    [
+                        1.0,
+                        -0.52
+                    ]
                 ]
             }
         },
         "smudge_length_log": {
-            "base_value": 0.0,
+            "base_value": 3.25,
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0,
-                        -6.666666666666665
-                    ],
-                    [
-                        6.0,
-                        20.0
-                    ]
-                ],
-                "pressure": [
+                "stroke": [
                     [
                         0.0,
-                        -5.2128632214604576
+                        -0.0
+                    ],
+                    [
+                        0.5,
+                        -0.0
+                    ],
+                    [
+                        0.5,
+                        -20.0
                     ],
                     [
                         1.0,
-                        20.0
+                        -20.0
                     ]
                 ]
             }
@@ -820,8 +922,83 @@
             "inputs": {}
         },
         "smudge_transparency": {
-            "base_value": 0.0,
-            "inputs": {}
+            "base_value": 0.03,
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0,
+                        0.00022454709422831565
+                    ],
+                    [
+                        0.5,
+                        -0.0
+                    ],
+                    [
+                        0.55,
+                        -0.0
+                    ],
+                    [
+                        0.55,
+                        -0.03
+                    ],
+                    [
+                        0.6,
+                        -0.03
+                    ],
+                    [
+                        0.6,
+                        -0.0
+                    ],
+                    [
+                        0.7,
+                        -0.0
+                    ],
+                    [
+                        0.7,
+                        -0.03
+                    ],
+                    [
+                        0.75,
+                        -0.03
+                    ],
+                    [
+                        0.75,
+                        -0.0
+                    ],
+                    [
+                        0.85,
+                        -0.0
+                    ],
+                    [
+                        0.85,
+                        -0.03
+                    ],
+                    [
+                        0.9,
+                        -0.03
+                    ],
+                    [
+                        0.9,
+                        -0.03
+                    ],
+                    [
+                        0.9,
+                        -0.0
+                    ],
+                    [
+                        0.95,
+                        -0.0
+                    ],
+                    [
+                        0.95,
+                        -0.03
+                    ],
+                    [
+                        1.0,
+                        -0.03
+                    ]
+                ]
+            }
         },
         "smudge_water": {
             "base_value": 0.0,
@@ -848,11 +1025,11 @@
             "inputs": {}
         },
         "stroke_duration_logarithmic": {
-            "base_value": 7.93,
+            "base_value": 2.1,
             "inputs": {}
         },
         "stroke_holdtime": {
-            "base_value": 10.0,
+            "base_value": 0.0,
             "inputs": {
                 "pressure": [
                     [
