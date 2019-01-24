@@ -1,14 +1,7 @@
 {
-    "cie_h": 241.44678737118903, 
-    "cie_s": 62.80006220730113, 
-    "cie_v": 92.0746185921253, 
-    "cieaxes": "Qsh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Tail_Feathers", 
     "settings": {
@@ -27,12 +20,26 @@
                 ], 
                 "custom": [
                     [
-                        -2.0, 
+                        -10.0, 
+                        -0.019220188685825867
+                    ], 
+                    [
+                        10.0, 
+                        0.35
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
                         0.0
                     ], 
                     [
-                        2.0, 
+                        2.8, 
                         0.0
+                    ], 
+                    [
+                        4.0, 
+                        1.09
                     ]
                 ]
             }
@@ -93,15 +100,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5749785723449529, 
+            "base_value": 0.11250590695807912, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.5889067232216222, 
+            "base_value": 0.955303809203574, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8938228934151793, 
+            "base_value": 0.7806392318116299, 
             "inputs": {}
         }, 
         "colorize": {
@@ -220,26 +227,16 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 0.85, 
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0, 
-                        0.2233333333333333
-                    ], 
-                    [
-                        6.0, 
-                        -0.67
-                    ]
-                ], 
                 "custom": [
                     [
-                        -2.0, 
-                        0.0
+                        -10.0, 
+                        -0.0
                     ], 
                     [
-                        2.0, 
-                        0.0
+                        10.0, 
+                        -0.53
                     ]
                 ]
             }
@@ -564,30 +561,8 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 0.0, 
             "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -1.0
-                    ], 
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        0.3, 
-                        0.0
-                    ], 
-                    [
-                        0.8, 
-                        -1.0
-                    ], 
-                    [
-                        1.0, 
-                        -1.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -655,18 +630,6 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
-        }, 
         "smudge_length": {
             "base_value": 0.75, 
             "inputs": {
@@ -684,10 +647,6 @@
         }, 
         "smudge_length_log": {
             "base_value": 4.08, 
-            "inputs": {}
-        }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {

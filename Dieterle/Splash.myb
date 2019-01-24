@@ -1,14 +1,7 @@
 {
-    "cie_h": 260.89066800283786, 
-    "cie_s": 51.787420408914905, 
-    "cie_v": 14.199424375826695, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Fan Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Splash", 
     "settings": {
@@ -39,7 +32,18 @@
         }, 
         "change_color_h": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "random": [
+                    [
+                        0.0, 
+                        -0.02
+                    ], 
+                    [
+                        1.0, 
+                        0.02
+                    ]
+                ]
+            }
         }, 
         "change_color_hsl_s": {
             "base_value": 0.0, 
@@ -132,15 +136,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6851851851851847, 
+            "base_value": 0.6314113171028825, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.999999999999998, 
+            "base_value": 0.8531709868630377, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7058823529411794, 
+            "base_value": 0.19485828311027628, 
             "inputs": {}
         }, 
         "colorize": {
@@ -298,7 +302,7 @@
                     ], 
                     [
                         1.0, 
-                        0.0
+                        180.0
                     ]
                 ]
             }
@@ -314,6 +318,16 @@
                     [
                         2.0, 
                         0.0
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.49
                     ]
                 ]
             }
@@ -502,7 +516,7 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 2.0, 
+            "base_value": 1.1111111111111112, 
             "inputs": {
                 "custom": [
                     [
@@ -551,10 +565,6 @@
                         0.0
                     ], 
                     [
-                        0.0, 
-                        1.0
-                    ], 
-                    [
                         1.0, 
                         1.0
                     ]
@@ -585,11 +595,31 @@
                         2.0, 
                         0.07
                     ]
+                ], 
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.3
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        4.0, 
+                        0.41
+                    ]
                 ]
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.39999999999999997, 
+            "base_value": 1.0, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -636,7 +666,7 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 1.0, 
             "inputs": {
                 "pressure": [
                     [
@@ -648,12 +678,8 @@
                         0.0
                     ], 
                     [
-                        0.3, 
+                        0.4, 
                         0.0
-                    ], 
-                    [
-                        0.8, 
-                        -1.0
                     ], 
                     [
                         1.0, 
@@ -727,53 +753,8 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -1.62
-                    ], 
-                    [
-                        10.0, 
-                        1.62
-                    ]
-                ]
-            }
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -2.16
-                    ], 
-                    [
-                        10.0, 
-                        2.16
-                    ]
-                ]
-            }
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {
-                "attack_angle": [
-                    [
-                        -180.0, 
-                        0.0
-                    ], 
-                    [
-                        180.0, 
-                        0.0
-                    ]
-                ]
-            }
-        }, 
         "smudge_length": {
-            "base_value": 0.75, 
+            "base_value": 0.95, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -789,10 +770,6 @@
         }, 
         "smudge_length_log": {
             "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {

@@ -1,19 +1,12 @@
 {
-    "cie_h": 260.43248080953384, 
-    "cie_s": 30.715872265870527, 
-    "cie_v": 9.85261127622626, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "Right hand angle w/ direction input\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/8B_Pencil#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 0.52, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -69,15 +62,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6296296296296297, 
+            "base_value": 0.13977762412524883, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8901098901098904, 
+            "base_value": 0.9611131471326689, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.3568627450980392, 
+            "base_value": 0.8304096246008326, 
             "inputs": {}
         }, 
         "colorize": {
@@ -93,8 +86,31 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 2.7, 
-            "inputs": {}
+            "base_value": 16.08, 
+            "inputs": {
+                "attack_angle": [
+                    [
+                        -180.0, 
+                        0.0
+                    ], 
+                    [
+                        -90.0, 
+                        8.26
+                    ], 
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        90.0, 
+                        8.26
+                    ], 
+                    [
+                        180.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "dabs_per_basic_radius": {
             "base_value": 0.0, 
@@ -109,7 +125,7 @@
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
-            "base_value": 90.56, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "elliptical_dab_ratio": {
@@ -118,10 +134,29 @@
         }, 
         "eraser": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "tilt_declination": [
+                    [
+                        0.0, 
+                        1.0
+                    ], 
+                    [
+                        27.0, 
+                        1.0
+                    ], 
+                    [
+                        36.0, 
+                        -0.0
+                    ], 
+                    [
+                        90.0, 
+                        -0.007917754504145447
+                    ]
+                ]
+            }
         }, 
         "gridmap_scale": {
-            "base_value": 0.0, 
+            "base_value": -4.65, 
             "inputs": {}
         }, 
         "gridmap_scale_x": {
@@ -133,7 +168,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 1.0, 
+            "base_value": 0.73, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -325,7 +360,7 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 0.83, 
+            "base_value": 0.34293552812071326, 
             "inputs": {
                 "random": [
                     [
@@ -355,8 +390,30 @@
                         1.0, 
                         1.0
                     ]
+                ], 
+                "tilt_declination": [
+                    [
+                        0.0, 
+                        0.09
+                    ], 
+                    [
+                        18.0, 
+                        0.09
+                    ], 
+                    [
+                        36.0, 
+                        -0.0
+                    ], 
+                    [
+                        90.0, 
+                        -0.0
+                    ]
                 ]
             }
+        }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "posterize": {
             "base_value": 0.0, 
@@ -406,7 +463,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.5000000000000022, 
+            "base_value": 1.2000000000000022, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -472,29 +529,17 @@
         "smudge_bucket": {
             "base_value": 0.0, 
             "inputs": {
-                "random": [
+                "custom": [
                     [
-                        0.0, 
-                        0.0
+                        -10.0, 
+                        -1.9801174864476856
                     ], 
                     [
-                        1.0, 
+                        10.0, 
                         255.0
                     ]
                 ]
             }
-        }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
         }, 
         "smudge_length": {
             "base_value": 0.97, 
@@ -504,32 +549,13 @@
             "base_value": 0.5, 
             "inputs": {}
         }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
-            "inputs": {}
-        }, 
         "smudge_radius_log": {
-            "base_value": 0.02, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
+            "base_value": -1.6, 
             "inputs": {}
         }, 
         "smudge_transparency": {
-            "base_value": 0.5, 
-            "inputs": {
-                "stroke": [
-                    [
-                        0.0, 
-                        -0.0008282470703125089
-                    ], 
-                    [
-                        1.0, 
-                        -0.49
-                    ]
-                ]
-            }
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "snap_to_pixel": {
             "base_value": 0.0, 

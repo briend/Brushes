@@ -1,19 +1,12 @@
 {
-    "cie_h": 260.89066800283786, 
-    "cie_s": 51.787420408914905, 
-    "cie_v": 14.199424375826695, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Round Brush Oil", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "Smudge controlled with pressure.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Round#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 0.85, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -37,15 +30,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6851851851851847, 
+            "base_value": 0.0019652904025642126, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.999999999999998, 
+            "base_value": 0.9615323409046235, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7058823529411794, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -238,7 +231,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 7.41, 
+            "base_value": 16.58, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -351,7 +344,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 1.0, 
+            "base_value": 0.83, 
             "inputs": {
                 "custom": [
                     [
@@ -685,7 +678,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 1.3, 
+            "base_value": 1.9000000000000001, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -827,39 +820,12 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {
-                "attack_angle": [
-                    [
-                        -180.0, 
-                        0.0
-                    ], 
-                    [
-                        180.0, 
-                        0.0
-                    ]
-                ]
-            }
-        }, 
         "smudge_length": {
             "base_value": 0.9, 
             "inputs": {}
         }, 
         "smudge_length_log": {
             "base_value": 3.75, 
-            "inputs": {}
-        }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {

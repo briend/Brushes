@@ -1,14 +1,7 @@
 {
-    "cie_h": 252.6809384290068, 
-    "cie_s": 34.40000000000003, 
-    "cie_v": 39.680564868644026, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
-    "lightsource_X": 92.88604392377309, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 69.1227141546093, 
     "notes": "HalfTone printer effect. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/HalfTone#1", 
     "settings": {
@@ -90,15 +83,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.5812075056934769, 
+            "base_value": 0.6314113171028825, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.44097200923849017, 
+            "base_value": 0.8531709868630378, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.6152515105842927, 
+            "base_value": 0.19485828311027628, 
             "inputs": {}
         }, 
         "colorize": {
@@ -283,6 +276,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {}
@@ -311,6 +308,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 0.0, 
@@ -494,18 +495,8 @@
             }
         }, 
         "opaque": {
-            "base_value": 0.71, 
+            "base_value": 0.73, 
             "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -0.77
-                    ], 
-                    [
-                        1.0, 
-                        0.77
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -531,10 +522,6 @@
                         0.0
                     ], 
                     [
-                        0.02862104510895594, 
-                        1.0
-                    ], 
-                    [
                         1.0, 
                         1.0
                     ]
@@ -550,6 +537,18 @@
                     ]
                 ]
             }
+        }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
         }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
@@ -591,7 +590,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.77, 
+            "base_value": 1.37, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -759,18 +758,6 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
-        }, 
         "smudge_length": {
             "base_value": 0.85, 
             "inputs": {}
@@ -779,16 +766,8 @@
             "base_value": 8.55, 
             "inputs": {}
         }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
-            "inputs": {}
-        }, 
         "smudge_radius_log": {
             "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {
