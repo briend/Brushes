@@ -1,19 +1,12 @@
 {
-    "cie_h": 109.63948353844098, 
-    "cie_s": 70.2501806063194, 
-    "cie_v": 119.8643058249461, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Half Tone", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "HalfTone printer effect. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/HalfToneCMY#1", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 1.01, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -239,7 +232,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 1.0, 
+            "base_value": 0.77, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -566,10 +559,6 @@
                         0.0
                     ], 
                     [
-                        0.02862104510895594, 
-                        1.0
-                    ], 
-                    [
                         1.0, 
                         1.0
                     ]
@@ -585,6 +574,10 @@
                     ]
                 ]
             }
+        }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "posterize": {
             "base_value": 0.0, 
@@ -634,7 +627,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.77, 
+            "base_value": 1.07, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -671,7 +664,7 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.99, 
+            "base_value": 1.0, 
             "inputs": {
                 "pressure": [
                     [
@@ -806,18 +799,6 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": -20.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
-        }, 
         "smudge_length": {
             "base_value": 0.5, 
             "inputs": {}
@@ -826,16 +807,8 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
-            "inputs": {}
-        }, 
         "smudge_radius_log": {
             "base_value": 0.01, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

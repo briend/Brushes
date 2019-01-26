@@ -1,14 +1,7 @@
 {
-    "cie_h": 252.6809384290065, 
-    "cie_s": 34.40000000000003, 
-    "cie_v": 39.68056486864405, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
     "group": "", 
-    "lightsource_X": 92.88604392377309, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 69.1227141546093, 
     "notes": "left-handed angle\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Pencil-_Left_Handed", 
     "settings": {
@@ -69,15 +62,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.5812075056934761, 
+            "base_value": 0.0019652904025642126, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.44097200923849067, 
+            "base_value": 0.9615323409046235, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.6152515105842923, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -195,6 +188,10 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": -29.5, 
             "inputs": {}
@@ -213,6 +210,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 0.08, 
@@ -343,6 +344,18 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -461,18 +474,6 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {}
-        }, 
         "smudge_length": {
             "base_value": 0.97, 
             "inputs": {}
@@ -481,16 +482,8 @@
             "base_value": 0.5, 
             "inputs": {}
         }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
-            "inputs": {}
-        }, 
         "smudge_radius_log": {
             "base_value": 0.02, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

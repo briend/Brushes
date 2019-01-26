@@ -1,6 +1,6 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "Fan Brush Oil", 
+    "description": "Watery Flat Brush", 
     "group": "", 
     "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/WateryFlatbrush", 
@@ -83,15 +83,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6666666666666666, 
+            "base_value": 0.0018402455432352343, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.15760100699995794, 
+            "base_value": 0.9655961035363907, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.005420742304206054, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {

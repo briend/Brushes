@@ -83,15 +83,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.6314113171028825, 
+            "base_value": 0.0019652904025642126, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8531709868630378, 
+            "base_value": 0.9615323409046235, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.19485828311027628, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {

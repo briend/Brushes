@@ -1,14 +1,7 @@
 {
-    "cie_h": 75.42991177314077, 
-    "cie_s": 56.442326667294836, 
-    "cie_v": 84.65543890911793, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
-    "description": "Blender", 
+    "description": "Posterizing Blender", 
     "group": "", 
-    "lightsource_X": 220.24210707129689, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 1065.399245987339, 
     "notes": "Pressure controls blend fineness\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Posterizer", 
     "settings": {
@@ -100,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.9136710943092169, 
+            "base_value": 0.0018402455432352343, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.5613685015606106, 
+            "base_value": 0.9655961035363907, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.830810672265945, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -560,6 +553,10 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
         "posterize": {
             "base_value": 1.0, 
             "inputs": {}
@@ -730,29 +727,6 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 1.0, 
-            "inputs": {
-                "attack_angle": [
-                    [
-                        -180.0, 
-                        0.0
-                    ], 
-                    [
-                        180.0, 
-                        0.0
-                    ]
-                ]
-            }
-        }, 
         "smudge_length": {
             "base_value": 0.5, 
             "inputs": {
@@ -783,16 +757,8 @@
                 ]
             }
         }, 
-        "smudge_normal_sub": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 0.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

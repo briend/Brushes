@@ -650,6 +650,10 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
         "posterize": {
             "base_value": 0.0, 
             "inputs": {}
@@ -830,10 +834,6 @@
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

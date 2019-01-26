@@ -3,21 +3,11 @@
     "description": "Soft Fine Fountain Pen", 
     "group": "", 
     "notes": "Quick movements will starve ink suppy.  Hard pressure will cause \"railroading\".  Can splatter a bit.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
-    "parent_brush_name": "Dieterle/Fount-offset", 
+    "parent_brush_name": "Dieterle/Fount-offset#1", 
     "settings": {
         "anti_aliasing": {
             "base_value": 0.33, 
             "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0, 
-                        -0.18085246183434323
-                    ], 
-                    [
-                        6.0, 
-                        -5.0
-                    ]
-                ], 
                 "rotation": [
                     [
                         0.0, 
@@ -104,7 +94,7 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.0, 
+            "base_value": 0.6196196683385001, 
             "inputs": {}
         }, 
         "color_s": {
@@ -112,7 +102,7 @@
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.03533990604361308, 
+            "base_value": 0.06762246357901605, 
             "inputs": {}
         }, 
         "colorize": {
@@ -247,18 +237,7 @@
         }, 
         "hardness": {
             "base_value": 0.33, 
-            "inputs": {
-                "brush_radius": [
-                    [
-                        -2.0, 
-                        0.0318320138113839
-                    ], 
-                    [
-                        6.0, 
-                        1.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
@@ -369,11 +348,19 @@
                 ]
             }
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "offset_angle_asc": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_angle_view": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
@@ -712,6 +699,18 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -721,7 +720,7 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 1.0, 
+            "base_value": 1.3, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -888,24 +887,8 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_add_sub": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
         "smudge_bucket": {
             "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_length": {
@@ -916,11 +899,11 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_lock": {
+        "smudge_radius_log": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
-        "smudge_radius_log": {
+        "smudge_transparency": {
             "base_value": 0.0, 
             "inputs": {}
         }, 

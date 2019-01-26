@@ -1,6 +1,6 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "Fan Brush Oil", 
+    "description": "Splash Brush", 
     "group": "", 
     "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Splash", 
@@ -136,15 +136,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.6314113171028825, 
+            "base_value": 0.0019023134751067945, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8531709868630377, 
+            "base_value": 0.9635972973307967, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.19485828311027628, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -571,6 +571,10 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
         "posterize": {
             "base_value": 0.0, 
             "inputs": {}
@@ -774,10 +778,6 @@
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

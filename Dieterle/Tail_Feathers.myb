@@ -1,12 +1,12 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "Fan Brush Oil", 
+    "description": "Tail Feathers", 
     "group": "", 
     "notes": "Smudge controlled with pressure. \n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Tail_Feathers", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.36, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -16,16 +16,6 @@
                     [
                         6.0, 
                         2.88
-                    ]
-                ], 
-                "custom": [
-                    [
-                        -10.0, 
-                        -0.019220188685825867
-                    ], 
-                    [
-                        10.0, 
-                        0.35
                     ]
                 ], 
                 "speed1": [
@@ -100,15 +90,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.11250590695807912, 
+            "base_value": 0.0019023134751067945, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.955303809203574, 
+            "base_value": 0.9635972973307967, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7806392318116299, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -155,7 +145,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 23.26, 
+            "base_value": 48.74, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -228,18 +218,7 @@
         }, 
         "hardness": {
             "base_value": 0.85, 
-            "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -0.0
-                    ], 
-                    [
-                        10.0, 
-                        -0.53
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
@@ -349,7 +328,7 @@
             "inputs": {}
         }, 
         "offset_by_random": {
-            "base_value": 1.07, 
+            "base_value": 0.25, 
             "inputs": {}
         }, 
         "offset_by_speed": {
@@ -380,16 +359,16 @@
                         -0.0
                     ], 
                     [
-                        2.8, 
+                        2.4, 
                         -0.0
                     ], 
                     [
                         3.6, 
-                        -2.45
+                        -1.86
                     ], 
                     [
                         4.0, 
-                        -2.45
+                        -1.86
                     ]
                 ], 
                 "stroke": [
@@ -399,15 +378,15 @@
                     ], 
                     [
                         0.2004942013982028, 
-                        0.6040561037647482
+                        0.1717957726303412
                     ], 
                     [
                         0.45, 
-                        0.9810000000000001
+                        0.2790000000000001
                     ], 
                     [
                         1.0, 
-                        1.09
+                        0.31
                     ]
                 ], 
                 "tilt_declination": [
@@ -431,7 +410,7 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 1.0, 
+            "base_value": 0.30864197530864196, 
             "inputs": {
                 "random": [
                     [
@@ -476,15 +455,15 @@
                         0.0
                     ], 
                     [
-                        0.0, 
-                        1.0
-                    ], 
-                    [
                         1.0, 
                         1.0
                     ]
                 ]
             }
+        }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "posterize": {
             "base_value": 0.0, 
@@ -514,7 +493,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": -0.49999999999999983, 
+            "base_value": 0.75, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -529,11 +508,11 @@
                 "brush_radius": [
                     [
                         -2.0, 
-                        1.0041246305257268
+                        1.4399999999999997
                     ], 
                     [
                         6.0, 
-                        -2.5103115763143173
+                        -3.6
                     ]
                 ], 
                 "pressure": [
@@ -651,10 +630,6 @@
         }, 
         "smudge_radius_log": {
             "base_value": -1.6, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_transparency": {

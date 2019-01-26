@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.11250590695807912, 
+            "base_value": 0.0019652904025642126, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.955303809203574, 
+            "base_value": 0.9615323409046235, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.7806392318116299, 
+            "base_value": 0.3832606500738793, 
             "inputs": {}
         }, 
         "colorize": {
@@ -542,6 +542,10 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
         "posterize": {
             "base_value": 0.0, 
             "inputs": {}
@@ -728,10 +732,6 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_spectral": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
