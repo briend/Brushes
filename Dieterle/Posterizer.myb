@@ -93,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.0018402455432352343, 
+            "base_value": 0.9227993091618883, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9655961035363907, 
+            "base_value": 0.3977856445050793, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.3832606500738793, 
+            "base_value": 0.013185659723717321, 
             "inputs": {}
         }, 
         "colorize": {
@@ -347,16 +347,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -40.0
-                    ], 
-                    [
-                        10.0, 
-                        40.0
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -405,6 +395,16 @@
         "offset_angle_adj": {
             "base_value": 0.0, 
             "inputs": {
+                "barrel_rotation": [
+                    [
+                        -180.0, 
+                        -180.0
+                    ], 
+                    [
+                        180.0, 
+                        180.0
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -420,6 +420,16 @@
         "offset_angle_asc": {
             "base_value": 0.0, 
             "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -40.96
+                    ], 
+                    [
+                        10.0, 
+                        40.96
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
@@ -567,7 +577,7 @@
                 "pressure": [
                     [
                         0.0, 
-                        0.4
+                        1.269999971613288
                     ], 
                     [
                         1.0, 
@@ -610,7 +620,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.4000000000000002, 
+            "base_value": -0.4999999999999998, 
             "inputs": {
                 "attack_angle": [
                     [

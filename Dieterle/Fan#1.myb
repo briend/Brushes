@@ -83,15 +83,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.0019652904025642126, 
+            "base_value": 0.9227993091618883, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9615323409046235, 
+            "base_value": 0.3977856445050793, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.3832606500738793, 
+            "base_value": 0.013185659723717321, 
             "inputs": {}
         }, 
         "colorize": {
@@ -422,16 +422,6 @@
         "offset_angle": {
             "base_value": 0.0, 
             "inputs": {
-                "custom": [
-                    [
-                        -10.0, 
-                        -38.4
-                    ], 
-                    [
-                        10.0, 
-                        38.4
-                    ]
-                ], 
                 "random": [
                     [
                         0.0, 
@@ -524,7 +514,18 @@
         }, 
         "offset_angle_asc": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "custom": [
+                    [
+                        -10.0, 
+                        -39.04
+                    ], 
+                    [
+                        10.0, 
+                        39.04
+                    ]
+                ]
+            }
         }, 
         "offset_angle_view": {
             "base_value": 0.0, 

@@ -1,19 +1,12 @@
 {
-    "cie_h": 305.0272568394187, 
-    "cie_s": 10.96381587966711, 
-    "cie_v": 1.5418468900996687, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Blender Dissolve", 
     "group": "", 
-    "lightsource_X": 95.047, 
-    "lightsource_Y": 100.0, 
-    "lightsource_Z": 108.883, 
     "notes": "Dissolve.  Pressure affects Smudge Transparency\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Dissolver", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 1.01, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -100,15 +93,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.7353081866774152, 
+            "base_value": 0.6766522670504121, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.9999999999999984, 
+            "base_value": 0.9518223902406391, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.040684138959935535, 
+            "base_value": 0.08657536926317218, 
             "inputs": {}
         }, 
         "colorize": {
@@ -231,7 +224,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 8.11, 
+            "base_value": 17.59, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -313,7 +306,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.83, 
+            "base_value": 0.8, 
             "inputs": {
                 "brush_radius": [
                     [
@@ -338,7 +331,7 @@
                 "pressure": [
                     [
                         0.0, 
-                        -0.1266666698124674
+                        -0.17099999999999999
                     ], 
                     [
                         1.0, 
@@ -405,20 +398,13 @@
             "base_value": 0.0, 
             "inputs": {}
         }, 
+        "offset_angle_2_view": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
         "offset_angle_adj": {
             "base_value": 0.0, 
-            "inputs": {
-                "barrel_rotation": [
-                    [
-                        -180.0, 
-                        -180.0
-                    ], 
-                    [
-                        180.0, 
-                        180.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "offset_angle_asc": {
             "base_value": 0.0, 
@@ -434,6 +420,10 @@
                     ]
                 ]
             }
+        }, 
+        "offset_angle_view": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "offset_by_random": {
             "base_value": 1.07, 
@@ -552,6 +542,18 @@
                 ]
             }
         }, 
+        "paint_mode": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "posterize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "posterize_num": {
+            "base_value": 0.05000000074505806, 
+            "inputs": {}
+        }, 
         "pressure_gain_log": {
             "base_value": 0.0, 
             "inputs": {}
@@ -572,7 +574,7 @@
             }
         }, 
         "radius_logarithmic": {
-            "base_value": 0.09999999999999998, 
+            "base_value": -0.2, 
             "inputs": {
                 "attack_angle": [
                     [
@@ -710,29 +712,6 @@
                 ]
             }
         }, 
-        "smudge_darken": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_desaturation": {
-            "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_gamma": {
-            "base_value": 2.4, 
-            "inputs": {
-                "attack_angle": [
-                    [
-                        -180.0, 
-                        0.0
-                    ], 
-                    [
-                        180.0, 
-                        0.0
-                    ]
-                ]
-            }
-        }, 
         "smudge_length": {
             "base_value": 0.5, 
             "inputs": {
@@ -750,10 +729,6 @@
         }, 
         "smudge_length_log": {
             "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "smudge_normal_sub": {
-            "base_value": 1.0, 
             "inputs": {}
         }, 
         "smudge_radius_log": {
