@@ -1,14 +1,7 @@
 {
-    "cie_h": 230.45592130498906, 
-    "cie_s": 7.209582680077722, 
-    "cie_v": 15.820851068397074, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Soft Fine Fountain Pen", 
     "group": "", 
-    "illuminant_X": 95.04559270516715, 
-    "illuminant_Y": 100.0, 
-    "illuminant_Z": 108.90577507598785, 
     "notes": "Quick movements will starve ink suppy.  Hard pressure will cause \"railroading\".  Can splatter a bit.\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/Fountain_SF#1", 
     "settings": {
@@ -129,15 +122,15 @@
             }
         }, 
         "color_h": {
-            "base_value": 0.5691936873283202, 
+            "base_value": 0.5692049731898831, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.46893865241724075, 
+            "base_value": 0.4689507748966175, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.010397993254013459, 
+            "base_value": 0.010397802292555273, 
             "inputs": {}
         }, 
         "colorize": {

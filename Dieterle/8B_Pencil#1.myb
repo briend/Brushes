@@ -1,14 +1,7 @@
 {
-    "cie_h": 230.45592130498906, 
-    "cie_s": 7.209582680077722, 
-    "cie_v": 15.820851068397074, 
-    "cieaxes": "JMh", 
     "comment": "MyPaint brush file", 
     "description": "Pencil", 
     "group": "", 
-    "illuminant_X": 95.04559270516715, 
-    "illuminant_Y": 100.0, 
-    "illuminant_Z": 108.90577507598785, 
     "notes": "Right hand angle w/ direction input\n\nAuthor: Brien Dieterle\nLicense: CC0/Public Domain", 
     "parent_brush_name": "Dieterle/8B_Pencil#1", 
     "settings": {
@@ -69,15 +62,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.5691936873283202, 
+            "base_value": 0.5692049731898831, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.46893865241724075, 
+            "base_value": 0.4689507748966177, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.010397993254013459, 
+            "base_value": 0.01039780229255527, 
             "inputs": {}
         }, 
         "colorize": {
