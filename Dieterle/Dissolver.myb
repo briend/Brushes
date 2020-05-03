@@ -1,7 +1,7 @@
 {
-    "cie_h": 27.485825997626357,
-    "cie_s": 104.03628435731814,
-    "cie_v": 55.96198913713014,
+    "cie_h": 272.0128154880038,
+    "cie_s": 40.474269584331644,
+    "cie_v": 32.31517318579026,
     "cieaxes": "JMh",
     "comment": "MyPaint brush file",
     "description": "Blender Dissolve",
@@ -36,10 +36,6 @@
                     ]
                 ]
             }
-        },
-        "brush_color": {
-            "base_value": 0.0,
-            "inputs": {}
         },
         "change_color_h": {
             "base_value": 0.0,
@@ -104,15 +100,15 @@
             }
         },
         "color_h": {
-            "base_value": 2.544273884167817e-09,
+            "base_value": 0.6406513202054632,
             "inputs": {}
         },
         "color_s": {
-            "base_value": 0.9999999999979087,
+            "base_value": 0.8881989058570019,
             "inputs": {}
         },
         "color_v": {
-            "base_value": 0.9997525787671615,
+            "base_value": 0.22233331203460702,
             "inputs": {}
         },
         "colorize": {
@@ -824,6 +820,10 @@
             "inputs": {}
         },
         "tracking_noise": {
+            "base_value": 0.0,
+            "inputs": {}
+        },
+        "volume": {
             "base_value": 0.0,
             "inputs": {}
         }
